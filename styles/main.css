@@ -1,0 +1,208 @@
+/*  
+
+Atomic Dog Industries
+
+>>>>  $Atomic Reset
+
+-------------------------- */
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+html { 
+	overflow-y: scroll;
+}
+
+body { 
+	background:#ffffff; 
+	font-size: 13px; 
+	color: #666666; 
+	font-family: Arial, helvetica, sans-serif;
+}
+
+ol, ul { 
+	list-style: none; margin: 0;
+}
+
+ul li { 
+	margin: 0; 
+	padding: 0;
+}
+
+h1 { 
+	margin-bottom: 10px; 
+	color: #111111;
+}	
+
+a, img { 
+	outline: none; 
+	border:none; 
+	color: #000000; 
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+p { 
+	margin: 0 0 10px; 
+	line-height: 1.4em; 
+	font-size: 1.2em;
+}
+
+img { 
+	display: block; 
+	margin-bottom: 10px;
+}
+
+aside { 
+	font-style: italic; 
+	font-size: 0.9em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+	
+/* Structure */
+#concreteWrapper {
+	width: 96%;	
+	max-width: 920px;
+	height:100%;
+	margin: auto;
+	padding: 2%;
+	} 
+
+	#main {
+		width: 60%;
+		/*margin-right: 5%;
+		float: left;*/
+		}
+		
+		.mainClass {
+		  margin-right: 5%;
+		float: left;	
+		}
+		
+	aside {
+		width: 35%;
+		/*float: right;*/
+		}
+		
+	.asideClass {
+		float: right;	
+		}
+		
+	.imageClass {
+		float: right;	
+		}
+		
+	img{
+		max-width:100%;	
+		float:right;
+		}
+		
+	#footer {
+		width: 100%;
+		height:40%;
+		margin-right: 5%;
+		float: left;
+		border-top: 2px solid #000000;
+		}
+
+
+			/* Logo H1 */
+			
+header h1 {
+	height: 70px;
+	width: 160px;
+	float: left;
+	display: block;
+	background: url(../images/atomic.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+	}
+		
+/* Nav */
+
+header nav {
+	float: right;
+	margin-top: 40px; 
+	}
+	
+	header nav li {
+		display: inline;
+		margin-left: 15px;
+		color:#999999;
+		text-underline:none !important;
+		
+		}
+		
+		#footer h1{
+		padding-top:15px;	
+		}
+		
+
+
+/* Atomic Image */	
+		
+#atomicImage {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+	height:30px;
+	}
+
+	#atomicImage img {
+		width: 100%;
+		height:30px;
+		}
+
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+	#skipTo {
+		display: block;
+		}
+	
+	header nav, #main, aside {
+		float: left;
+		clear: left;
+		margin: 0 0 10px; 
+		width: 100%;
+		}	
+		header nav li {
+			margin: 0;
+			background: #A21D21;
+			font-color:#FFFFFF;
+			display: block;
+			margin-bottom: 3px;
+			}
+			header nav a {
+				display: block;
+				padding: 10px;
+				text-align: center;
+				}	
+				
+				a, img { 
+				outline: none; 
+				border:none; 
+				color: #FFFFFF; 
+				font-weight: bold; 
+				text-transform: uppercase;
+				text-decoration:none;
+				
+				}
+				
+				header h1 {
+	margin:0 0 0 30%;
+	}	
+	
+	.imageClass{
+		max-width:100%;	
+		float:right;
+		padding-right:25px;
+		}
+		
+}
+
+/* your mom loves media queries */
